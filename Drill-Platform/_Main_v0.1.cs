@@ -29,16 +29,17 @@ public void Main(string arg, UpdateType source) {
     // run each Main__...() submethod here
   }
   Main__WriteDiagnostics();
+  Program__GetPistons();
 } // Main()
 
 public void Program__GetPistons() {
-  IMyBlockGroup xgroup = GridTerminalSystem.GetBlockGroupWithName(xPistonGroup);
-    if (group == null)
-      {
-        Echo("X Group not found");
-        return;
-      }
-      delete__me(xgroup);
+//  IMyBlockGroup xgroup = GridTerminalSystem.GetBlockGroupWithName(xPistonGroup);
+//    if (group == null)
+//      {
+//        Echo("X Group not found");
+//        return;
+//      }
+//      delete__me(xgroup);
 
   IMyBlockGroup ygroup = GridTerminalSystem.GetBlockGroupWithName(yPistonGroup);
     if (group == null)

@@ -8,14 +8,15 @@ public const UpdateFrequency FREQ = UpdateFrequency.Update100;
 // If standing at the point where the contraption attaches to the
 // platform, X+ is to your right, Z+ is ahead of you, and Y+ is up.
 
-public const string xPistonGroup = "Drill pistons x";
+// start off with a 2D platform. Add third D if desired.
+//public const string xPistonGroup = "Drill pistons x";
 public const string yPistonGroup = "Drill pistons y";
 public const string zPistonGroup = "Drill pistons z";
 
 // Define the velocities for the various actions
 
-public const float xExtensionVelocity = .5;
-public const float xRetractionVelocity = .5;
+//public const float xExtensionVelocity = .5;
+p//ublic const float xRetractionVelocity = .5;
 public const float yExtensionVelocity = .01;
 public const float yRetractionVelocity = 1;
 public const float zExtensionVelocity = .5;
