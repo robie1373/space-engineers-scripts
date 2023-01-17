@@ -25,7 +25,7 @@ public void Main(string arg, UpdateType source) {
   // NOTE: multiple trigger sources can roll in on the same tick
   // test each trigger individually, not with if() else if () blocks
 
-  if((source & FREQ) != 0) { // TODO: can != 0 be dropped?
+  if((FREQ) != 0) { // TODO: can != 0 be dropped? // had to delete source check due to compile error
     // run each Main__...() submethod here
   }
   Main__WriteDiagnostics();
@@ -42,7 +42,7 @@ public void Program__GetPistons() {
 //      delete__me(xgroup);
 
   IMyBlockGroup ygroup = GridTerminalSystem.GetBlockGroupWithName(yPistonGroup);
-    if (group == null)
+    if (ygroup == null)
     {
       Echo("Y Group not found");
       return;
@@ -50,7 +50,7 @@ public void Program__GetPistons() {
     delete__me(ygroup);
 
   IMyBlockGroup zgroup = GridTerminalSystem.GetBlockGroupWithName(zPistonGroup);
-    if (group == null)
+    if (zgroup == null)
     {
       Echo("Z Group not found");
       return;
