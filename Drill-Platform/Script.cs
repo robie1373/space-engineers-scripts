@@ -1,5 +1,5 @@
 //
-// XXX Drill-Platform/_Customize.cs XXX
+// XXX Drill-Platform//_Customize.cs XXX
 //
 
 // EDIT THESE VARIABLES
@@ -7,8 +7,10 @@
 public const string VERSION = "Template v0.1";
 public const UpdateFrequency FREQ = UpdateFrequency.Update100;
 
+public const string yPistonGroup = "yPistons";
+public const string zPistonGroup = "zPistons";
 //
-// XXX Drill-Platform/_Main_v0.1.cs XXX
+// XXX Drill-Platform//_Main_v0.1.cs XXX
 //
 
 //// GLOBAL VARIABLES
@@ -83,7 +85,7 @@ foreach (var block in blocks)
 }
 }
 //
-// XXX Drill-Platform/_Template_v0.1.cs XXX
+// XXX Drill-Platform//_Template_v0.1.cs XXX
 //
 
 // XXX START (DO NOT EDIT) XXX
