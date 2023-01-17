@@ -30,3 +30,41 @@ public void Main(string arg, UpdateType source) {
   }
   Main__WriteDiagnostics();
 } // Main()
+
+public void Program__GetPistons() {
+  IMyBlockGroup xgroup = GridTerminalSystem.GetBlockGroupWithName(xPistonGroup);
+    if (group == null)
+      {
+        Echo("X Group not found");
+        return;
+      }
+      delete__me(xgroup);
+
+  IMyBlockGroup ygroup = GridTerminalSystem.GetBlockGroupWithName(yPistonGroup);
+    if (group == null)
+    {
+      Echo("Y Group not found");
+      return;
+    }
+    delete__me(ygroup);
+
+  IMyBlockGroup zgroup = GridTerminalSystem.GetBlockGroupWithName(zPistonGroup);
+    if (group == null)
+    {
+      Echo("Z Group not found");
+      return;
+    }
+    delete__me(zgroup);
+
+}
+
+public void delete__me(IMyBlockGroup group) {
+
+Echo($"{group.Name}:");
+List<IMyTerminalBlock> blocks = new List<IMyTerminalBlock>();
+group.GetBlocks(blocks);
+foreach (var block in blocks)
+{
+    Echo($"- {block.CustomName}");
+}
+}
