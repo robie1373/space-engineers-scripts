@@ -1,3 +1,9 @@
+# Drill Platform Automation script
+The purpose of this script is to automate the extension and rotaion of pistons and rotors on a specifically designed drill platform of the sort you might put on a lake for ice production. If this is useful to you, then Huzzah!!!
+
+This projecct is adapted from ThrowawAPI's Space Engineer Scripts. Their original README is retained below for attribution and help finding their original work.
+
+
 # ThrowawAPI's Space Engineer Scripts
 
 I offer a collection of ingame scripts for Space Engineers' servers that other players may find helpful. I have worked to solve three issues when publishing these scripts:

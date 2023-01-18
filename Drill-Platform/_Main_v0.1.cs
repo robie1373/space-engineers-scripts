@@ -10,11 +10,10 @@ public Program() {
 
 public void Initialize() {
   // run each Program__...() submethods here
+  Program__GetPistons();
+
 } // Initialize()
 
-//// Save()
-// called when the Programmable Block shuts down
-// use this method to save state to the storage field
 public void Save() {
 } // Save()
 
@@ -29,7 +28,6 @@ public void Main(string arg, UpdateType source) {
     // run each Main__...() submethod here
   }
   Main__WriteDiagnostics();
-  Program__GetPistons();
 } // Main()
 
 public void Program__GetPistons() {
